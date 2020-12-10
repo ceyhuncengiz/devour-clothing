@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/devour-clothing/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/devour-clothing/static/js/main.7987314a.chunk.js",
+    "main.js.map": "/devour-clothing/static/js/main.7987314a.chunk.js.map",
+    "runtime-main.js": "/devour-clothing/static/js/runtime-main.7e40c2af.js",
+    "runtime-main.js.map": "/devour-clothing/static/js/runtime-main.7e40c2af.js.map",
+    "static/js/2.d228d1ab.chunk.js": "/devour-clothing/static/js/2.d228d1ab.chunk.js",
+    "static/js/2.d228d1ab.chunk.js.map": "/devour-clothing/static/js/2.d228d1ab.chunk.js.map",
+    "index.html": "/devour-clothing/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/devour-clothing/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d228d1ab.chunk.js.LICENSE.txt": "/devour-clothing/static/js/2.d228d1ab.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/devour-clothing/static/media/crown.3a4e2b15.svg",
+    "static/media/shopping-bag.a688874f.svg": "/devour-clothing/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e40c2af.js",
+    "static/js/2.d228d1ab.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.7987314a.chunk.js"
+  ]
+}
