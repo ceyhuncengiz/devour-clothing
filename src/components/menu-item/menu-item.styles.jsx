@@ -27,6 +27,13 @@ export const MenuItemContainer = styled.div`
   &:last-child {
     margin-left: 7.5px;
   }
+  @media screen and (max-width: 800px) {
+    height: ${({ size }) => (size ? '380px' : '240px')};
+    min-width: unset;
+    width: 100px;
+    flex: 1 1 auto;
+    margin-top: 20px;
+  }
 `;
 
 export const BackgroundImageContainer = styled.div`
@@ -48,6 +55,11 @@ export const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  @media screen and (max-width: 800px) {
+    width: 25%;
+    height: 90px;
+    opacity: 0.6;
+  }
 `;
 
 export const ContentTitle = styled.span`
@@ -60,4 +72,7 @@ export const ContentTitle = styled.span`
 export const ContentSubtitle = styled.span`
   font-weight: lighter;
   font-size: 16px;
+  @media screen and (max-width: 800px) {
+    font-size: 10px;
+  }
 `;

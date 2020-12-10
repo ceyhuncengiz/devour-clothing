@@ -5,4 +5,16 @@ export const SignInAndSignUpContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
+  @media screen and (max-width: 800px) {
+    text-align: center;
+    flex-direction: column;
+    width: unset;
+    align-items: center;
+    > *:first-child {
+      margin-bottom: 50px;
+    }
+    button {
+      margin: 0 auto;
+    }
+  }
 `;

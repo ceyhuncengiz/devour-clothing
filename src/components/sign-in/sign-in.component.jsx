@@ -42,7 +42,7 @@ const  SignIn = ({ emailSignInStart, googleSignInStart }) => {
             type='email'
             handleChange={handleChange}
             value={email}
-            label='email'
+            label='Email'
             required
           />
           <FormInput
@@ -50,7 +50,7 @@ const  SignIn = ({ emailSignInStart, googleSignInStart }) => {
             type='password'
             value={password}
             handleChange={handleChange}
-            label='password'
+            label='Password'
             required
           />
           <ButtonsBarContainer>
