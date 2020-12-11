@@ -31,15 +31,11 @@ const App = ({ checkUserSession, currentUser }) => {
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
-          <Route
+            <Route
             exact
             path='/signin'
             render={() =>
-              currentUser ? (
-                <Redirect to='/' />
-              ) : (
-                <SignInAndSignUpPage />
-              )
+              currentUser ? <Redirect to='/' /> : <SignInAndSignUpPage />
             }
           />
         </Switch>
